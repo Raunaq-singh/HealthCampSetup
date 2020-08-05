@@ -36,7 +36,7 @@ ga.run()
 bestCampSites = ga.population[0]
 ```
 
-* Also you can get the site where each patient should be sent to using  ***bestIndividualPlan*** method which returns a list of assigned campsite indices to patients. *(e.g. if the returned plan is [0 1 2 1 2] it means the first patient is connected to campsite 0, second and forth patients are connected to campsite 1 and finally third and fifth patients are connected to campsite with index 2)*
+* Also you can get the site where each patient should be sent to using  ***bestSiteForEachPatient*** method which returns a list of assigned campsite indices to patients. *(e.g. if the returned plan is [0 1 2 1 2] it means the first patient is connected to campsite 0, second and forth patients are connected to campsite 1 and finally third and fifth patients are connected to campsite with index 2)*
 
 ```
 bestSiteForEachPatient = ga.bestSiteForEachPatient()
