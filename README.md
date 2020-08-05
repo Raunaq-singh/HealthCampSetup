@@ -1,7 +1,7 @@
 # HealthCampSetup
 
 ## **Getting Started**
-* In a python script, import UFLPGeneticProblem class from the downloaded module
+* In a python script, do the following
 ``` 
 from HealthCampSetupGeneticProblem import HealthCampSetupGeneticProblem
 ```
